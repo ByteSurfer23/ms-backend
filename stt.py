@@ -4,7 +4,7 @@ import numpy as np
 import io
 import uuid
 import os
-
+#simple implementation
 # Load Whisper model once
 WHISPER_MODEL = "small"
 print("Loading Whisper model...")

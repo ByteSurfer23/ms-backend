@@ -1,11 +1,11 @@
-openai 
+openai
 python-dotenv
 sounddevice
 scipy
 keyboard
 fastapi
 uvicorn
-whisper
+openai-whisper
 soundfile
 numpy
 transformers
