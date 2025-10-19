@@ -1,27 +1,46 @@
-# Python cache
+# ------------------------
+# Python cache and compiled files
+# ------------------------
 __pycache__/
 *.py[cod]
+*.so
 
-# Virtual environment
+# ------------------------
+# Virtual environments
+# ------------------------
 env/
 venv/
 .venv/
 .env
 
-# Byte-compiled / compiled files
-*.so
-*.egg
-*.egg-info/
+# ------------------------
+# Distribution / build folders
+# ------------------------
 dist/
 build/
+*.egg
+*.egg-info/
 
+# ------------------------
 # Logs
+# ------------------------
 *.log
 
+# ------------------------
 # IDE / OS files
+# ------------------------
 .vscode/
+.idea/
 .DS_Store
 Thumbs.db
 
-# Optional: Jupyter Notebook checkpoints
+# ------------------------
+# Jupyter Notebook checkpoints
+# ------------------------
 .ipynb_checkpoints/
+
+# ------------------------
+# Optional: Docker / temp
+# ------------------------
+*.env
+*.tmp
