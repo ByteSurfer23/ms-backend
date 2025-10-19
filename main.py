@@ -42,7 +42,7 @@ def load_models():
     global whisper_model, generator
 
     print("🎙️ Loading Whisper small model...")
-    whisper_model = whisper.load_model("small")  # Base model
+    whisper_model = whisper.load_model("small")  # small model loading
     print("✅ Whisper small loaded")
 
     print("🤖 Loading Summarizing model model...")
