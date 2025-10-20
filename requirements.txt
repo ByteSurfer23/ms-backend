@@ -7,4 +7,5 @@ transformers==4.57.0
 openai-whisper==20250625
 dateparser==1.2.2
 python-multipart==0.0.20
+dateparser==1.2.2
 

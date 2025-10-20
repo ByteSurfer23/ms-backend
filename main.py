@@ -45,7 +45,7 @@ def load_models():
     whisper_model = whisper.load_model("small")  # small model loading
     print("✅ Whisper small loaded")
 
-    print("🤖 Loading Summarizing model model...")
+    print("🤖 Loading Summarizing model model...") # summarizing model loading
     generator = pipeline("text-generation", model="EleutherAI/gpt-neo-125M", device=-1)
     print("✅ Summarizing model loaded")
 
